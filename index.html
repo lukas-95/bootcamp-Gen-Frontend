@@ -2,34 +2,32 @@
 <html lang="pt-br">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="assets/images/Eu.jpg" >
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Lucas's Portfolio</title>
   </head>
+
   <body>
     <nav>
-      <div>
-        <img
-          src="assets/images/Eu.jpg"
-          alt="gorgeous men with a beautiful smile"
-        />
-        <span>Home</span>
-      </div>
-      <ul>
-        <li>
-            <a href="index.html" target="_blank"> Home</a>
-        </li>
-        <li>About</li>
-        <li>Video</li>
-        <li>
-          <a href="contact.html" target="_blank"> Contact</a>
-        </li>
+      <ul id="menu">
+        <li><a href="index.html"> Home</a></li>
+        <li> <a href="#about">About</a></li>
+        <li><a href="#my_video">Video</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
     <main>
       <h1>About me:</h1>
-      <section>
+      <section class="container">
         <div>
-          <p>
+          <img class="br-50 wh-300 p-30"           src="assets/images/Eu.jpg"
+        alt="gorgeous men with a beautiful smile"
+        width="300"   />
+     
+  </div>
+        <div class="p-30" >
+          <p class="justify">
             Cresci em um sitio no interior do RS, aos 18 anos vim para São Paulo
             para trabalhar e estudar. Desde criança sempre fui muito curioso,
             logo me fascinei por computadores e aos 10 anos já gravava animes em
@@ -38,47 +36,48 @@
             Judô/Jiu-jitsu por mais de 6 anos, devido a uma hérnia de disco tive
             que parar com os esportes de impacto e hoje faço capoeira.
           </p>
-          <p>
+          <p class="justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Consequuntur pariatur blanditiis velit architecto, qui error amet
             cumque a explicabo perferendis debitis? Eius expedita velit culpa
             aliquid quas nihil, tempora totam!
           </p>
-          <p>
+          <p class="justify">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Consequuntur pariatur blanditiis velit architecto, qui error amet
             cumque a explicabo perferendis debitis? Eius expedita velit culpa
             aliquid quas nihil, tempora totam!
           </p>
         </div>
+        
       </section>
-      <h2>Video</h2>
-      <section>
-        <h3>My Pitch</h3>
-        <iframe
-          width="665"
-          height="374"
-          src="https://www.youtube.com/embed/-ZPQWoAHV5Q"
-          title="Lucas Reck Menezes Pitch"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </section>
+      <h2 class="center">My Pitch</h2>
+        <div class="container mb-50">
+          <iframe
+          class="video"
+            width="665"
+            height="374"
+            src="https://www.youtube.com/embed/-ZPQWoAHV5Q"
+            title="Lucas Reck Menezes Pitch"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
     </main>
     <footer>
-      <div>
+      <div class="container">
         <a href="https://www.linkedin.com/in/lucas-reck-dev/" target="_blank">
-          <img src="assets/images/Linkedin.png" alt="logo Linkedin" />
+          <img class="icons p-30" src="assets/svg/linkedin.svg" alt="logo Linkedin" />
         </a>
         <a href="https://github.com/lukas-95" target="_blank">
-          <img src="assets/images/GitHub-logo.png" alt="logo GitHub" />
+          <img class="icons p-30" src="assets/svg/github.svg" alt="logo GitHub" />
         </a>
         <a href="https://www.instagram.com/recklucas/" target="_blank">
-          <img src="assets/images/Linkedin.png" alt="logo Instagram" />
+          <img class="icons p-30" src="assets/svg/instagram.svg" alt="logo Instagram" />
         </a>
       </div>
-      <p></p>
+      <p class="by">Developed by Lucas - 2023 &copy;</p>
     </footer>
   </body>
 </html>

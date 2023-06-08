@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    
+    --background-page: #FFF9E7;
+    --background-nav: #3A53E3;
+    --background-about: #F8CD53;
+    --background-footer: #29282B;
+
+
+    /* Cores de fonte */
+    --color-fonte-default: #000000;
+    --color-fonte-nav: #FFFFFF;
+    --color-fonte-by: orange;
+    --color-fonte-button-hover: yellow;
+
+
+    /* Fontes da pagina */
+    --lato-roboto: 'lato', Roboto;
+    --lato-cursive: 'lato', cursive;
+
+    /* Coree de Efeito */
+    --color-shadow: #C0C0C0;
+    --color-shadow-hover: #191970;
+    --color-button-hover: #191970;
+    --color-placeholder-effect: #191970;
+}
+ /* Estilos pagina index.html */
+.center {
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row;
+justify-content: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    
+    color: red;
+    
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300{
+
+    width: 250px;
+    height: 200px;
+}
+
+
+
+
+.icons{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+ /* Estilos pagina contato.html */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
