@@ -1,116 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
 :root {
-    
-    --background-page: #FFF9E7;
-    --background-nav: #3A53E3;
-    --background-about: #F8CD53;
-    --background-footer: #29282B;
+  --background-page: #006DA2;
+  --background-nav: #0C1618;
+  --background-about: #f8cd53;
+  --background-footer: #29282b;
 
+  /* Cores de fonte */
+  --color-fonte-default: #0C1618;
+  --color-fonte-nav: #ffffff;
+  --color-fonte-by: #9F4A54;
+  --color-fonte-button-hover: yellow;
 
-    /* Cores de fonte */
-    --color-fonte-default: #000000;
-    --color-fonte-nav: #FFFFFF;
-    --color-fonte-by: orange;
-    --color-fonte-button-hover: yellow;
+  /* Fontes da pagina */
+  --lato-roboto: "lato", Roboto;
+  --lato-cursive: "lato", cursive;
 
-
-    /* Fontes da pagina */
-    --lato-roboto: 'lato', Roboto;
-    --lato-cursive: 'lato', cursive;
-
-    /* Coree de Efeito */
-    --color-shadow: #C0C0C0;
-    --color-shadow-hover: #191970;
-    --color-button-hover: #191970;
-    --color-placeholder-effect: #191970;
+  /* Coree de Efeito */
+  --color-shadow: #c0c0c0;
+  --color-shadow-hover: #0C1618;
+  --color-button-hover: #0C1618;
+  --color-placeholder-effect: #191970;
 }
- /* Estilos pagina index.html */
+
+/* Estilos pagina index.html */
 .center {
-    text-align: center;
+  text-align: center;
 }
 
-.justify{
-    text-align: justify;
+.justify {
+  text-align: justify;
 }
 
-
-.container{
-    display: flex;
-    flex-flow: row;
-justify-content: center;
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
 }
 
-#menu li{
-    display: inline;
-    padding: 15px;
+#menu li {
+  display: inline;
+  padding: 15px;
 }
 
-#menu li a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
+#menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 
 #menu li a:hover {
-    
-    color: red;
-    
+  color: var(--color-shadow-hover);
 }
 
-.p-30{
-    padding: 30px;
+.p-30 {
+  padding: 30px;
 }
 
-.br-50{
-    border-radius: 50%;
+.br-50 {
+  border-radius: 50%;
 }
 
-.wh-300{
-
-    width: 250px;
-    height: 200px;
+.wh-300 {
+  width: 250px;
+  height: 200px;
 }
 
-
-
-
-.icons{
-    width: 50px;
-    height: 50px;
-    
+.icons {
+  width: 50px;
+  height: 50px;
 }
 
-.mb-50{
-    margin-bottom: 50px;
+.mb-50 {
+  margin-bottom: 50px;
 }
 
-
- /* Estilos pagina contato.html */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Estilos pagina contato.html */
+.ml-50{
+    margin-left: 50px;
+}
 
